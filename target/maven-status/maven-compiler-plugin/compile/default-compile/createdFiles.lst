@@ -1,4 +1,5 @@
 com\mycompany\cadastropoo\CadastroPOO.class
+com\mycompany\cadastropoo\model\Main.class
 com\mycompany\cadastropoo\model\MainOld.class
 com\mycompany\cadastropoo\model\PessoaJuridicaRepo.class
 com\mycompany\cadastropoo\model\PessoaFisica.class

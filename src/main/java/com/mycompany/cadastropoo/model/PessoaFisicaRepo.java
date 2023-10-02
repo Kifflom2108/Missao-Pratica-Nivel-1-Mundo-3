@@ -19,11 +19,11 @@ public class PessoaFisicaRepo {
         listaPessoasFisicas.add(pessoaFisica);
     }
 
-    public void alterar(PessoaFisica pessoaFisica) {
+    public void alterar(PessoaFisica pessoaFisica,PessoaFisica novaPessoaFisica) {
         for (int i = 0; i < listaPessoasFisicas.size(); i++) {
             PessoaFisica pessoaAtual = listaPessoasFisicas.get(i);
             if (pessoaAtual.getId() == pessoaFisica.getId()) {
-                listaPessoasFisicas.set(i, pessoaFisica);
+                listaPessoasFisicas.set(i, novaPessoaFisica);
                 return;
             }
         }
